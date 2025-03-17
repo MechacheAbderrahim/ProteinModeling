@@ -38,3 +38,10 @@ Example usage: `python structure_graphs.py -i example.pdb`
   Paper: https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf  
   PyTorch implementation: https://github.com/fxia22/pointnet.pytorch  
   TensorFlow implementation: https://github.com/charlesq34/pointnet
+
+## ⚠️ Important
+Before running the scripts, be sure to create the following folders inside the `./data/` directory:  
+`ply/`, `points/`, `reduced/`, `structure_graphs/`, and `surface_graphs/`.
+
+You can create them all at once using:  
+`mkdir -p ./data/ply ./data/points ./data/reduced ./data/structure_graphs ./data/surface_graphs`
