@@ -30,6 +30,8 @@ The `example.ply` file must be available in `./data/ply`
 
 Example usage: `python structure_graphs.py -i example.pdb`
 
+## Data
+- The Data used in this work is avalaible at `http://shrec2019.drugdesign.fr`
 ## Notes
 - The EDTSurf binary is located in the `/bin` folder and must be executable on Linux.
 - A sample PDB file is available in `./data/pdb` for testing.
